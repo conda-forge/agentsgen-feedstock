@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.3.0"
+  version: "0.5.0"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/agentsgen/agentsgen-${{ version }}.tar.gz
-  sha256: 727cdefa665502690c20043328663a0249ffef0288d930b4a0259a8039929952
+  sha256: ee84be5422faac7df8d0812d047eeee3dc684e0bfbcc2df1a59dca2a9812c1b7
 
 build:
   number: 0
