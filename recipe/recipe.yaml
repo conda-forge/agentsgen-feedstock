@@ -2,7 +2,6 @@ schema_version: 1
 
 context:
   version: "0.5.0"
-  python_min: "3.11"
 
 package:
   name: agentsgen
@@ -26,6 +25,7 @@ requirements:
     - python ${{ python_min }}.*
     - pip
     - setuptools >=68
+    - wheel
   run:
     - python >=${{ python_min }}
     - typer >=0.12,<1.0
